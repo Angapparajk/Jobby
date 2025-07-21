@@ -1,0 +1,82 @@
+.login-form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+  }
+  
+  .form-container {
+    background-color: #272727;
+    border-radius: 12px;
+    padding: 15px;
+    width: 350px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .input-container {
+    width: 80%;
+  }
+  
+  .input-label {
+    display: block;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .login-website-logo-desktop-image {
+    width: 100px;
+    height: 60px;
+  }
+  
+  .username-input-field {
+    background: transparent;
+    width: 100%;
+    color: #64748b;
+    border-radius: 5px;
+    border: 1px solid #64748b;
+    padding: 6px 10px;
+  }
+  
+  .password-input-field {
+    background: transparent;
+    width: 100%;
+    color: #64748b;
+    border-radius: 5px;
+    border: 1px solid #64748b;
+    padding: 6px 10px;
+  }
+  .btn {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+  }
+  .error-message{
+    color:#ffffff;
+  }
+
+@media (max-width: 600px) {
+  .login-form-container {
+    padding: 0 8px;
+    height: 100vh;
+  }
+  .form-container {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+  }
+  .login-website-logo-desktop-image {
+    width: 75px;
+    height: 40px;
+  }
+  .input-container {
+    width: 100%;
+  }
+}
+  

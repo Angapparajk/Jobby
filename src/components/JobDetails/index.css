@@ -1,0 +1,152 @@
+.job-details-page {
+    background-color: #121212;
+  }
+  
+  .job-details-container {
+    padding: 24px;
+    color: #ffffff;
+    background-color: #272727;
+    width: 80%;
+    border-radius: 15px;
+    margin: 20px auto;
+  }
+  .container {
+    padding: 15px;
+  }
+  
+  .head-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .company-logo {
+    width: 60px;
+  }
+  
+  .meta {
+    display: flex;
+    gap: 24px;
+    margin: 16px 0;
+  }
+  
+  .description {
+    margin: 16px 0;
+  }
+  
+  .skills-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .skill-icon {
+    width: 45px;
+  }
+  
+  .life-at-company {
+    margin-top: 24px;
+  }
+  
+  .life-content {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+  }
+  
+  .life-img {
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .similar-job-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .similar-job-header > IMG {
+    height: 50px;
+  }
+  .similar-jobs-section {
+    color: #ffffff;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .similar-job-card {
+    background-color: #272727;
+    padding: 15px;
+    border-radius: 12px;
+  }
+  
+  .similar-job-meta {
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .similar-jobs-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+@media (max-width: 900px) {
+  .job-details-container, .similar-jobs-section {
+    width: 98%;
+    padding: 10px;
+  }
+  .skills-list, .similar-jobs-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .life-content {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .life-img {
+    width: 100%;
+    max-width: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .job-details-container, .similar-jobs-section {
+    width: 100%;
+    padding: 15px;
+    margin: 0;
+  }
+  .skills-list, .similar-jobs-list {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .company-logo {
+    width: 40px;
+  }
+  .life-img {
+    width: 100%;
+    max-width: 120px;
+  }
+  .head-title {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+}
+  

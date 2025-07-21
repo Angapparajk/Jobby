@@ -1,0 +1,25 @@
+.home-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0px;
+    color: #ffffff;
+    padding: 40px;
+    font-family: Roboto;
+  }
+  
+  .job-btn {
+    background-color: #4f46e5;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 6px;
+  }
+  
+  @media screen and (max-width: 576px) {
+    .home-container {
+      background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    }
+  }
+  
