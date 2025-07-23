@@ -9,9 +9,9 @@
   .form-container {
     background-color: #272727;
     border-radius: 12px;
-    padding: 15px;
+    padding: 5px;
     width: 350px;
-    height: 50%;
+    height: 55%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -80,3 +80,11 @@
   }
 }
   
+.login-credentials{
+  line-height: 2px;
+  font-family: Roboto;
+  color:#ffffff;
+}
+.login-credentials h5{
+  text-decoration: underline;
+}

@@ -88,6 +88,11 @@ const LoginForm = () => {
           className="login-website-logo-desktop-image"
           alt="website logo"
         />
+        <div className='login-credentials'>
+        <h5>Login Credentials</h5>
+        <h6>Username : rahul</h6>
+        <h6>Password : rahul@2021</h6>
+        </div>
         <div className="input-container">{renderUsernameField()}</div>
         <div className="input-container">{renderPasswordField()}</div>
         <button type="submit" className="btn">
